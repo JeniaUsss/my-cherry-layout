@@ -1,0 +1,127 @@
+@font-face {
+	font-family: 'ARIALMT';
+	src: url('../fonts/ARIALMT.ttf');
+	font-weight: normal;
+	font-size: normal;
+}
+@font-face {
+	font-family: 'Arial-BoldMT';
+	src: url('../fonts/Arial-BoldMT.otf');
+	font-weight: normal;
+	font-size: normal;
+}
+body {
+	max-width: 1300px;
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'ARIALMT';
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	max-width: 980px;
+	height: 100%;
+	margin: 0 auto;
+}
+b {
+	color: #ae4b5d;
+}
+
+/************header************/
+
+.header {
+	background-image: url(../image/header_bg.png);
+	max-height: 72px;
+}
+.header_flex {
+	display: flex;
+	justify-content: space-between;
+}
+.header_h {
+	font-size: 30px;
+	font-family: 'Arial-BoldMT';
+	color: #a5adb8;
+}
+.header_p {
+	font-size: 12px;
+	color: #656f7a;
+}
+.header_input_img {
+	display: flex;
+	align-items: center;
+}
+
+/*************middle*************/
+
+/*******berry*******/
+
+.berry {
+	background-image: url(../image/berry.png);
+	max-height: 240px;
+}
+.berry_h {
+	font-size: 30px;
+	font-family: 'Arial-BoldMT';
+	color: #a5adb8;
+}
+.berry_span {
+	font-size: 18px;
+	font-family: 'Arial-BoldMT';
+	color: #2b3036;
+}
+.berry_h_two {
+	font-size: 18px;
+	font-family: 'Arial-BoldMT';
+	color: #a5adb8;
+}
+.berry_p {
+	font-size: 14px;
+	color: #d9dcdf;
+}
+/*******red*********/
+
+.red {
+	background-color: #95161f;
+	height: 36px;
+}
+ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+	padding-top: 10px;
+	gap: 52px;
+}
+ul li a {
+	text-decoration: none;
+	color: #ffff;
+	font-size: 16px;
+}
+ul li :last-child {
+	padding-right: 21px;
+}
+
+/*******white*******/
+
+.white_p_span {
+	background-color: #f3f3f3;
+	height: 26px;
+}
+.white_p {
+	font-size: 11px;
+	color: #6b6f74;
+}
+.white_span {
+	color: #95161f;
+	text-decoration: underline;
+}
+.white_flex_all {
+	display: flex;
+}
+.white_flex_left {
+	min-width: 250px;
+}
+.white_flex_right {
+	min-width: 730px;
+}
