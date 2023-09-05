@@ -16,9 +16,13 @@ body {
 	margin: 0 auto;
 	font-family: 'ARIALMT';
 }
+th {
+	font-weight: 300;
+}
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 .wrapper {
 	max-width: 980px;
@@ -69,7 +73,12 @@ b {
 }
 
 /*************middle*************/
-
+.middle {
+	background-color: #e3e5e7;
+}
+.middle_bg {
+	background-color: #ffff;
+}
 /*******berry*******/
 
 .berry {
@@ -147,8 +156,9 @@ b {
 .white_h_inputs {
 	border: 1px solid #d7dade;
 	background-color: #f3f3f3;
-	max-width: 210px;
+	max-width: 212px;
 	min-height: 408px;
+	padding-left: 11px;
 }
 .white_flex_left {
 	min-width: 250px;
@@ -161,16 +171,18 @@ b {
 }
 .white_inputs {
 	padding-top: 20px;
-	padding-left: 11px;
 }
 .white_input {
 	width: 185px;
 	height: 31px;
-	margin-bottom: 16px;
-	background-color: #e3e4e5;
-	border-color: #ffff;
 	border-radius: 3px;
+	box-shadow: inset 0px 2px 1.5px rgba(0, 0, 0, 0.1);
+	background-color: #e3e4e5;
+	border: 1px solid #fffcfc;
+	margin-bottom: 16px;
+	padding-left: 9px;
 }
+
 .white_input_plus {
 	width: 185px;
 	height: 31px;
@@ -259,17 +271,24 @@ td {
 	background-color: #9c4757;
 	color: #ffff;
 	font-size: 12px;
+	font-family: 'Arial-BoldMT';
+	font-weight: 500;
 }
 .column_black {
 	background-color: #282d33;
 	color: #9da4af;
 	font-size: 12px;
 }
+.th_pink {
+	color: #d08b98;
+	text-decoration: underline;
+	font-size: 12px;
+}
 /***********footer**************/
 
 .footer {
 	background-image: url(../image/footer.png);
-	max-height: 238px;
+	min-height: 238px;
 }
 .footer_flex {
 	display: flex;
