@@ -209,6 +209,8 @@ b {
 	font-size: 24px;
 	font-family: 'Arial-BoldMT';
 	color: #a5adb8;
+	margin-top: 35px;
+	margin-bottom: 22px;
 }
 .white_p_span_two {
 	padding-top: 17px;
@@ -233,7 +235,36 @@ b {
 .white_lists_flex {
 	display: flex;
 }
+.white_span_three {
+	color: #5c646e;
+	font-size: 14px;
+}
+.white_li_a {
+	text-decoration: none;
+	color: #5c646e;
+	font-size: 14px;
+}
+table {
+	border-collapse: collapse; /* Объединение границ ячеек */
+	width: 100%; /* Ширина таблицы (можно настроить по вашему усмотрению) */
+}
 
+th,
+td {
+	border: 1px solid black; /* Установка границы вокруг каждой ячейки */
+	padding: 8px; /* Добавление отступов внутри ячеек (по вашему усмотрению) */
+}
+
+.column_red {
+	background-color: #9c4757;
+	color: #ffff;
+	font-size: 12px;
+}
+.column_black {
+	background-color: #282d33;
+	color: #9da4af;
+	font-size: 12px;
+}
 /***********footer**************/
 
 .footer {
@@ -247,16 +278,35 @@ b {
 }
 .footer_time {
 	display: flex;
+	align-items: center;
+	padding-top: 8px;
 }
 .footer_ul {
-	list-style-type: none;
+	color: #9c4757;
+	margin-bottom: 8px;
 }
 .footer_li_a {
 	text-decoration: none;
 	color: #85898f;
+	font-size: 12px;
 }
 .footer_h {
 	font-family: 'Arial-BoldMT';
 	font-size: 18px;
 	color: #a5adb8;
+	padding-bottom: 8px;
+}
+.footer_p {
+	font-size: 12px;
+	color: #85898f;
+}
+.footer_span {
+	color: #a5adb8;
+	font-size: 14px;
+	font-family: 'Arial-BoldMT';
+}
+.footer_span_pink {
+	color: #d08b98;
+	text-decoration: underline;
+	font-size: 12px;
 }
