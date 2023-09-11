@@ -1,13 +1,13 @@
 @font-face {
 	font-family: 'ARIALMT';
 	src: url('../fonts/ARIALMT.ttf');
-	font-weight: normal;
+	font-weight: 400;
 	font-size: normal;
 }
 @font-face {
 	font-family: 'Arial-BoldMT';
 	src: url('../fonts/Arial-BoldMT.otf');
-	font-weight: normal;
+	font-weight: 700;
 	font-size: normal;
 }
 body {
@@ -15,6 +15,7 @@ body {
 	padding: 0;
 	margin: 0 auto;
 	font-family: 'ARIALMT';
+	font-weight: 400;
 }
 th {
 	font-weight: 300;
@@ -37,11 +38,13 @@ b {
 
 .header {
 	background-image: url(../image/header_bg.png);
-	max-height: 72px;
+	height: 72px;
 }
 .header_flex {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	height: 100%;
 }
 .header_h_p {
 	padding-left: 8px;
@@ -50,13 +53,12 @@ b {
 	font-size: 30px;
 	font-family: 'Arial-BoldMT';
 	color: #a5adb8;
-	padding-top: 15px;
 }
 .header_p {
 	font-size: 12px;
 	font-family: 'Arial-BoldMT';
 	color: #656f7a;
-	padding-bottom: 17px;
+	margin-top: -6px;
 }
 .header_input_img {
 	display: flex;
@@ -71,6 +73,7 @@ b {
 	box-shadow: inset 0px 5px 2.5px rgba(0, 0, 0, 0.25);
 	background-color: #24272d;
 	border: 1px solid #875f66;
+	padding-left: 6px;
 }
 
 /*************middle*************/
@@ -370,7 +373,6 @@ td {
 	font-family: 'Arial-BoldMT';
 	font-size: 18px;
 	color: #a5adb8;
-	padding-bottom: 8px;
 }
 .footer_p {
 	font-size: 12px;
